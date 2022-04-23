@@ -2,9 +2,9 @@
 
 class teste01
 {
-  private $nome;
+  private string $nome;
   
-  public function getNome(){
+  public function getNome(): string{
     return $this->nome;
   }
 }
